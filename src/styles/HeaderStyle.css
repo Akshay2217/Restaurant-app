@@ -1,0 +1,36 @@
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-menu li {
+    margin: 0 20px;
+}
+
+.navigation-menu li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-menu li  .active{
+    color: goldenrod;
+}
+
+/*  Mobile View */
+.mobile-navigation {
+    list-style: none;
+}
+
+.mobile-navigation li {
+    margin-top: 20px;
+}
+
+.mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:black
+}
+.mobile-navigation li .active{
+    color:goldenrod
+}
